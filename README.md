@@ -68,13 +68,16 @@
 - 报错信息，说明...
 
 #### 图片预览
+<details>
+<summary>点击展开图片...</summary>
+
 
 [![关注检测](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/4.png "关注检测")](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/4.png "关注检测")
 [![取关检测](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/3.png "取关检测")](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/3.png "取关检测")
 [![cookie检测](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/2.png "cookie检测")](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/2.png "cookie检测")
 [![cookie检测](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/1.png "cookie检测")](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/1.png "cookie检测")
 
-
+</details>
 
 ------------
 
