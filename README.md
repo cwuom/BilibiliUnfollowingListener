@@ -42,6 +42,43 @@
 
 ------------
 
+### 邮件消息
+#### 关注检测
+包含如下主要信息
+- 关注后粉丝数
+- 关注者UID
+- 关注者昵称
+- 关注者主页链接
+
+#### 取关检测
+包含如下主要信息
+- 取关后粉丝数
+- 取关者UID
+- 取关者昵称
+- 取关者主页链接
+- 取关者关注日期 yyyy-MM-dd HH : mm : ss (受API限制，此项不一定显示)
+
+#### cookie检测
+包含如下主要信息
+- 报错信息，说明...
+
+
+#### 风控检测
+包含如下主要信息
+- 报错信息，说明...
+
+#### 图片预览
+
+[![关注检测](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/4.png "关注检测")](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/4.png "关注检测")
+[![取关检测](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/3.png "取关检测")](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/3.png "取关检测")
+[![cookie检测](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/2.png "cookie检测")](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/2.png "cookie检测")
+[![cookie检测](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/1.png "cookie检测")](https://raw.githubusercontent.com/cwuom/BilibiliUnfollowingListener/master/1.png "cookie检测")
+
+
+
+------------
+
+
 ### 它是如何工作的？
 #### 官方API
 此程序利用B站官方提供的API接口实现一系列功能，在此感谢B站的API返回十分简洁从而减小了制作时间。
