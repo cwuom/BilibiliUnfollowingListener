@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact name="BilibiliUnfollowingListener:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BilibiliUnfollowingListener_jar</output-path>
+    <root id="root">
+      <element id="archive" name="BilibiliUnfollowingListener.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="BilibiliUnfollowingListener" />
+        <element id="module-test-output" name="BilibiliUnfollowingListener" />
+      </element>
+      <element id="library" level="project" name="Maven: net.sf.json-lib:json-lib:jdk15:2.4" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+      <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+      <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+      <element id="library" level="project" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" />
+      <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+      <element id="library" level="project" name="Maven: javax.mail:mail:1.5.0-b01" />
+      <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.0" />
+      <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.5" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.7.1" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.0" />
+      <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.15.3" />
+    </root>
+  </artifact>
+</component>
