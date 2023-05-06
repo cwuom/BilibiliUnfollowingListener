@@ -35,7 +35,6 @@ public class Main {
     // 你需要变动的地方
     public static String CookiesPath = "cookie.txt"; // cookie存放路径
     public static String UID = "473400804"; // 你的UID，此项确定了你的监听目标
-
     public static int sleep_time = 20000; // 休眠时间，若持续风控可向上更改此数值。默认20000ms(20s)
 
     public static boolean FollowingListener = true; // 关注检测提示 [true : 开启提示] [false : 关闭提示]
@@ -136,7 +135,7 @@ public class Main {
                             else{ // 触发取关
                                 for(int y = 0; y < TempFan.size(); y++){ // 遍历旧粉丝列表
                                     if (Objects.equals(TempFan.get(y).mid, mid)){ // 找到与当前uid相同的用户
-                                        TempFan.remove(y); // 排除掉此用户
+                                        TempFan.remove(y); // 抹掉此用户
                                         break;
                                     }
                                 }
@@ -184,8 +183,6 @@ public class Main {
                         }
                     }
 
-                    Fan.clear();
-                    TempFan.clear();
                     NewFans.clear();
                     iFollowing = false;
                 }
@@ -227,6 +224,7 @@ public class Main {
                     }
 
                     Fan.clear();
+                    TempFan.clear();
                     iUnfollowing = false;
                 }
 
